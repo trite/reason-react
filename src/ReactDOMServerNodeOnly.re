@@ -1,4 +1,4 @@
-[@deriving abstract]
+[@deriving jsProperties]
 type options = {
   [@mel.optional]
   bootstrapScriptContent: option(string),

@@ -489,7 +489,7 @@ module Ref = {
 };
 
 /* This list isn't exhaustive. We'll add more as we go. */
-[@deriving abstract]
+[@deriving jsProperties]
 type domProps = {
   [@mel.optional]
   key: option(string),
